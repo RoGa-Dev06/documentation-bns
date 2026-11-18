@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Bear The Next Sword favicon</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6df9b"/>
+      <stop offset=".52" stop-color="#c79a4b"/>
+      <stop offset="1" stop-color="#805522"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#77838d"/>
+      <stop offset=".5" stop-color="#f4f0df"/>
+      <stop offset="1" stop-color="#68727c"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="23" fill="#111519" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M64 13 69 22 67 65 64 73 61 65 59 22Z" fill="url(#steel)" stroke="#20272c" stroke-width="1.8"/>
+  <path d="M43 62 Q64 70 85 62 L81 69 Q64 77 47 69Z" fill="url(#gold)" stroke="#382a19" stroke-width="2"/>
+  <path d="M64 69V91" stroke="#d5b16b" stroke-width="5"/>
+  <path d="M64 85 72 93 64 101 56 93Z" fill="url(#gold)" stroke="#382a19" stroke-width="1.8"/>
+  <path d="M30 44 Q26 25 39 23 Q50 22 53 38 Q64 32 75 38 Q78 22 89 23 Q102 25 98 44 Q108 59 98 79 Q91 94 77 97 Q64 102 51 97 Q37 94 30 79 Q20 59 30 44Z" fill="#20272b" stroke="url(#gold)" stroke-width="3.5"/>
+  <path d="M34 43 Q34 30 42 30 Q49 31 49 43 M79 43 Q79 31 86 30 Q94 30 94 43" fill="none" stroke="#a27a40" stroke-width="2.8"/>
+  <path d="M35 54 Q46 43 57 51 L64 58 71 51 Q82 43 93 54 L85 65 Q75 59 68 68 L64 72 60 68 Q53 59 43 65Z" fill="#0d1114" stroke="#9c783f" stroke-width="2"/>
+  <path d="M42 69 Q51 63 59 70 L61 75 Q51 80 43 76Z M86 69 Q77 63 69 70 L67 75 Q77 80 85 76Z" fill="#d0a45b"/>
+  <path d="M64 72V83" stroke="#b98a48" stroke-width="2.5"/>
+  <path d="M50 84 Q64 76 78 84 Q75 96 64 97 Q53 96 50 84Z" fill="#111519" stroke="#9b743d" stroke-width="2.5"/>
+  <path d="M57 85 Q64 81 71 85 Q69 90 64 90 Q59 90 57 85Z" fill="#c5a06a"/>
+</svg>
