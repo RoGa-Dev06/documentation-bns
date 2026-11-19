@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "Bear Next Sword", "index.html", [
+    [ "Paquetages", "namespaces.html", [
+      [ "Liste des paquetages", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Liste des classes", "annotated.html", "annotated_dup" ],
       [ "Index des classes", "classes.html", null ],
@@ -32,7 +35,8 @@ var NAVTREE =
       [ "Membres de classe", "functions.html", [
         [ "Tout", "functions.html", null ],
         [ "Fonctions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Propriétés", "functions_prop.html", null ]
       ] ]
     ] ],
     [ "Fichiers", "files.html", [
@@ -43,7 +47,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"_ally_observ_player_8cs.html"
 ];
 
 const SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

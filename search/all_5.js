@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['update_0',['Update',['../class_character_movement.html#acf7cd399d1f9ff0a876e86230f3cd5ca',1,'CharacterMovement']]]
+  ['gamemanagerservice_0',['GameManagerService',['../class_game_manager_service.html',1,'']]],
+  ['gamemanagerservice_2ecs_1',['GameManagerService.cs',['../_game_manager_service_8cs.html',1,'']]],
+  ['groundcheckdistance_2',['groundCheckDistance',['../class_test.html#af3eb78331d7fe7695fdf3ab520f8df2d',1,'Test']]]
 ];

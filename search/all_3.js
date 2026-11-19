@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['speed_0',['speed',['../class_character_movement.html#af7a058b68d0116147896c61891da3f27',1,'CharacterMovement']]]
+  ['dialogservice_0',['DialogService',['../class_dialog_service.html',1,'']]],
+  ['dialogservice_2ecs_1',['DialogService.cs',['../_dialog_service_8cs.html',1,'']]],
+  ['dir_2',['dir',['../class_test.html#ac5a5a1ba7ee923e6cadc02295f2fb711',1,'Test']]]
 ];
