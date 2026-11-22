@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['factorangle_0',['factorAngle',['../class_cone_vision.html#ad5745f203a2b088da04126dad29111ff',1,'ConeVision']]],
-  ['factorlength_1',['factorLength',['../class_cone_vision.html#a39590aba2d29236100b363bb6106dab4',1,'ConeVision']]]
+  ['factories_0',['factories',['../class_npc_generator.html#a70ffa3ac7a913d9f21a4df36bfa0351e',1,'NpcGenerator']]],
+  ['follow_1',['follow',['../class_ally_follow_mgr.html#a375a0777317df92aa20ebef9efd14ee8',1,'AllyFollowMgr']]]
 ];

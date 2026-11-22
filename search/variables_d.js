@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['timesincejump_0',['timeSinceJump',['../class_test.html#a77c4a18bb450131903ae3e28c5771984',1,'Test']]]
+  ['timesincejump_0',['timeSinceJump',['../class_test_player.html#a7a4937c7b8e1a840a02a6c0af3c13171',1,'TestPlayer']]]
 ];

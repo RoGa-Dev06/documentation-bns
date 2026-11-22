@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['allservices_0',['AllServices',['../class_order_execution_s_l.html#a57923d054529998be18a1257a4eb99d0',1,'OrderExecutionSL']]],
-  ['asset_1',['asset',['../class_test.html#ac917baf3ae844688f5c7686f856368f2',1,'Test']]]
+  ['_5finstance_0',['_instance',['../class_service_locator.html#ae7f80d7b72fa1019d6a994891d9f8297',1,'ServiceLocator']]]
 ];

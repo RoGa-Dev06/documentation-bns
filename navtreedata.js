@@ -25,29 +25,33 @@
 var NAVTREE =
 [
   [ "Bear Next Sword", "index.html", [
-    [ "Paquetages", "namespaces.html", [
-      [ "Liste des paquetages", "namespaces.html", "namespaces_dup" ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Liste des classes", "annotated.html", "annotated_dup" ],
       [ "Index des classes", "classes.html", null ],
       [ "Hiérarchie des classes", "hierarchy.html", "hierarchy" ],
       [ "Membres de classe", "functions.html", [
-        [ "Tout", "functions.html", null ],
+        [ "Tout", "functions.html", "functions_dup" ],
         [ "Fonctions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Propriétés", "functions_prop.html", null ]
+        [ "Propriétés", "functions_prop.html", null ],
+        [ "Événements", "functions_evnt.html", null ]
       ] ]
     ] ],
     [ "Fichiers", "files.html", [
-      [ "Liste des fichiers", "files.html", "files_dup" ]
+      [ "Liste des fichiers", "files.html", "files_dup" ],
+      [ "Membres de fichier", "globals.html", [
+        [ "Tout", "globals.html", null ],
+        [ "Définitions de type", "globals_type.html", null ],
+        [ "Énumérations", "globals_enum.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_ally_observ_player_8cs.html"
+"_ally_8cs.html",
+"class_npc_product_mb.html#ae5d3e83a87b0a03102e7c3711cbce092"
 ];
 
 const SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

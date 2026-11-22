@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dialogservice_0',['DialogService',['../class_dialog_service.html',1,'']]]
+  ['createnpcdata_0',['CreateNpcData',['../class_create_npc_data.html',1,'']]]
 ];
