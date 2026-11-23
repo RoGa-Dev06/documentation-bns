@@ -2747,6 +2747,15 @@ details[open]>summary::before {
   text-decoration: none;
 }
 
+.roga-credit-link {
+  text-decoration: none;
+}
+
+.roga-credit-link:hover,
+.roga-credit-link:focus-visible {
+  text-decoration: underline;
+}
+
 .title,
 h1,
 h2,
@@ -2795,6 +2804,28 @@ h3 {
 .roga-social-links a:hover span,
 .roga-social-links a:focus-visible span {
   color: #000000;
+}
+
+.roga-download-link {
+  background: #ffc107;
+  border: 1px solid #ffc107;
+  border-radius: 999px;
+  color: #000000;
+  font-family: var(--font-family-normal);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 6px 14px;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.roga-download-link:hover,
+.roga-download-link:focus-visible {
+  background: #000000;
+  border-color: #ffc107;
+  color: #ffc107;
+  outline: none;
 }
 
 :root.dark-mode .title,

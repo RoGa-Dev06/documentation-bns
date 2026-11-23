@@ -26,9 +26,26 @@
     return nav;
   }
 
+  function createDownloadLink() {
+    const link = document.createElement("a");
+    link.className = "roga-download-link";
+    link.href = "https://roga-dev.itch.io/bear-next-sword";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Télécharger le jeu";
+    return link;
+  }
+
   function addHeader() {
     const titleArea = document.getElementById("titlearea");
-    if (!titleArea || document.querySelector(".roga-header-strip")) return;
+    const existingStrip = document.querySelector(".roga-header-strip");
+    if (existingStrip) {
+      if (!existingStrip.querySelector(".roga-download-link")) {
+        existingStrip.append(createDownloadLink());
+      }
+      return;
+    }
+    if (!titleArea) return;
 
     const strip = document.createElement("div");
     strip.className = "roga-header-strip";
@@ -47,12 +64,26 @@
     tagline.textContent = "Développement, jeux vidéo et création";
     lockup.append(tagline);
 
-    strip.append(lockup, createSocialLinks("Réseaux sociaux de RoGa Dev"));
+    strip.append(lockup, createSocialLinks("Réseaux sociaux de RoGa Dev"), createDownloadLink());
     titleArea.insertAdjacentElement("afterend", strip);
   }
 
   function addFooter() {
-    if (document.querySelector(".roga-footer")) return;
+    const existingFooter = document.querySelector(".roga-footer");
+    if (existingFooter) {
+      const brand = existingFooter.querySelector(".roga-footer-copy strong");
+      if (brand && !brand.closest(".roga-credit-link")) {
+        const brandLink = document.createElement("a");
+        brandLink.className = "roga-credit-link";
+        brandLink.href = "https://www.youtube.com/@roga_dev";
+        brandLink.target = "_blank";
+        brandLink.rel = "noopener noreferrer";
+        brand.textContent = "RoGa Dev";
+        brand.before(brandLink);
+        brandLink.append(brand);
+      }
+      return;
+    }
 
     const footer = document.createElement("footer");
     footer.className = "roga-footer";
@@ -60,9 +91,16 @@
     const copy = document.createElement("div");
     copy.className = "roga-footer-copy";
 
+    const brandLink = document.createElement("a");
+    brandLink.className = "roga-credit-link";
+    brandLink.href = "https://www.youtube.com/@roga_dev";
+    brandLink.target = "_blank";
+    brandLink.rel = "noopener noreferrer";
+
     const brand = document.createElement("strong");
     brand.textContent = "RoGa Dev";
-    copy.append(brand);
+    brandLink.append(brand);
+    copy.append(brandLink);
 
     const invitation = document.createElement("span");
     invitation.textContent = "Retrouve-moi sur les réseaux !";
@@ -78,9 +116,18 @@
     }
   }
 
+  function removeDoxygenCredit() {
+    document.querySelectorAll("#nav-path li.footer, address.footer").forEach((credit) => {
+      if (credit.querySelector('a[href="https://www.doxygen.org/index.html"]')) {
+        credit.remove();
+      }
+    });
+  }
+
   function addBranding() {
     addHeader();
     addFooter();
+    removeDoxygenCredit();
   }
 
   if (document.readyState === "loading") {
