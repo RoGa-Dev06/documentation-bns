@@ -1,0 +1,653 @@
+<!-- HTML header for doxygen 1.18.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.18.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Bear Next Sword: Référence de la classe AllyFollowMgr</title>
+<link rel="icon" href="favicon.svg" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="codefolding.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<script type="text/javascript" src="branding.js"></script>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Bear Next Sword<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">Documentation du code C# de mon jeu BNS, que je crée dans le but d&#39;une game jam</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<div class="roga-header-strip">
+  <div class="roga-brand-lockup">
+    <a class="roga-brand-name" href="index.html">RoGa Dev</a>
+    <span class="roga-brand-tagline">Développement, jeux vidéo et création</span>
+  </div>
+  <nav class="roga-social-links" aria-label="Réseaux sociaux de RoGa Dev">
+    <a href="https://www.twitch.tv/roga_dev" target="_blank" rel="noopener noreferrer">Twitch <span>@roga_dev</span></a>
+    <a href="https://www.tiktok.com/@roga_dev" target="_blank" rel="noopener noreferrer">TikTok <span>@roga_dev</span></a>
+    <a href="https://www.youtube.com/@roga_dev" target="_blank" rel="noopener noreferrer">YouTube <span>@roga_dev</span></a>
+  </nav>
+  <a class="roga-download-link" href="https://roga-dev.itch.io/bear-next-sword" target="_blank" rel="noopener noreferrer">Télécharger le jeu</a>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.18.0 -->
+<script type="text/javascript">
+let searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', codefold.init);
+</script>
+<script type="application/json" id="doxygen-config">
+{
+  "relPath": "",
+  "generateTreeView": true,
+  "searchEngine": true,
+  "serverBasedSearch": false,
+  "disableIndex": false,
+  "dynamicMenus": true,
+  "fullSidebar": false
+}
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<div id="main-nav-mobile">
+<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
+<span id="searchBoxPos1"></span>
+</div>
+</div><!-- main-nav-mobile -->
+<div id="main-nav">
+  <ul class="sm sm-dox" id="main-menu">
+    <li id="searchBoxPos2">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Recherche" accesskey="S"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+    </li>
+  </ul>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',() => { initNavTree('class_ally_follow_mgr.html','','class_ally_follow_mgr-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Référence de la classe AllyFollowMgr</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Graphe d'héritage de AllyFollowMgr:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_ally_follow_mgr.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a0c66532d234fc7f8dc8acffe86acac3d" id="r_a0c66532d234fc7f8dc8acffe86acac3d"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a0c66532d234fc7f8dc8acffe86acac3d">AgentStopDistance</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+Propriétés</h2></td></tr>
+<tr class="memitem:af32a6c4379ae188953d21c4a110b9d9f" id="r_af32a6c4379ae188953d21c4a110b9d9f"><td class="memItemLeft">NavMeshAgent&#160;</td><td class="memItemRight"><a class="el" href="#af32a6c4379ae188953d21c4a110b9d9f">Agent</a><code> [get]</code></td></tr>
+<tr class="memitem:a5220aea1d05649764b415b6e18a96062" id="r_a5220aea1d05649764b415b6e18a96062"><td class="memItemLeft"><a class="el" href="interface_i_ally_follow.html">IAllyFollow</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5220aea1d05649764b415b6e18a96062">CurrentState</a><code> [get, private set]</code></td></tr>
+<tr class="memitem:af9de989817df81a5792e286f2178c020" id="r_af9de989817df81a5792e286f2178c020"><td class="memItemLeft"><a class="el" href="class_player.html">Player</a>&#160;</td><td class="memItemRight"><a class="el" href="#af9de989817df81a5792e286f2178c020">Player</a><code> [get]</code></td></tr>
+<tr class="memitem:ae96682228e30404fa9eace01312bc6c3" id="r_ae96682228e30404fa9eace01312bc6c3"><td class="memItemLeft">Vector3&#160;</td><td class="memItemRight"><a class="el" href="#ae96682228e30404fa9eace01312bc6c3">playerTrans</a><code> [get, set]</code></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-events" class="groupheader"><a id="events" name="events"></a>
+Événements</h2></td></tr>
+<tr class="memitem:a5d734e9743decb866d8693b7dc38ba66" id="r_a5d734e9743decb866d8693b7dc38ba66"><td class="memItemLeft">Action&lt; <a class="el" href="interface_i_ally_follow.html">IAllyFollow</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5d734e9743decb866d8693b7dc38ba66">stateChange</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a3304b6c8473ca2baaaee9928d64b8fe2" id="r_a3304b6c8473ca2baaaee9928d64b8fe2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3304b6c8473ca2baaaee9928d64b8fe2">Awake</a> ()</td></tr>
+<tr class="memitem:a58d6be5b018b3100bc8288211b817b33" id="r_a58d6be5b018b3100bc8288211b817b33"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a58d6be5b018b3100bc8288211b817b33">Initialize</a> (<a class="el" href="interface_i_ally_follow.html">IAllyFollow</a> state)</td></tr>
+<tr class="memitem:aa54f9b093d0854b3c0e57f5ea1e12854" id="r_aa54f9b093d0854b3c0e57f5ea1e12854"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa54f9b093d0854b3c0e57f5ea1e12854">OnChangeAllyState</a> (InputAction.CallbackContext context)</td></tr>
+<tr class="memitem:a8c549d073c8062b57730f14891bb3922" id="r_a8c549d073c8062b57730f14891bb3922"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start</a> ()</td></tr>
+<tr class="memitem:a65281eaf77bd53a947acb8b46e8f4cab" id="r_a65281eaf77bd53a947acb8b46e8f4cab"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a65281eaf77bd53a947acb8b46e8f4cab">TransitionTo</a> (<a class="el" href="interface_i_ally_follow.html">IAllyFollow</a> nextState)</td></tr>
+<tr class="memitem:aec06f9d13887eebdd587c1dcaec7d436" id="r_aec06f9d13887eebdd587c1dcaec7d436"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aec06f9d13887eebdd587c1dcaec7d436">Update</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a56b495e50b02cf1a4caae3fe0340c59f" id="r_a56b495e50b02cf1a4caae3fe0340c59f"><td class="memItemLeft">NavMeshAgent&#160;</td><td class="memItemRight"><a class="el" href="#a56b495e50b02cf1a4caae3fe0340c59f">agent</a></td></tr>
+<tr class="memitem:ae2b1728fe36fdcf2366237bbebea855b" id="r_ae2b1728fe36fdcf2366237bbebea855b"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#ae2b1728fe36fdcf2366237bbebea855b">agentStopDistance</a> = 10f</td></tr>
+<tr class="memitem:a375a0777317df92aa20ebef9efd14ee8" id="r_a375a0777317df92aa20ebef9efd14ee8"><td class="memItemLeft"><a class="el" href="class_ally_follow_state.html">AllyFollowState</a>&#160;</td><td class="memItemRight"><a class="el" href="#a375a0777317df92aa20ebef9efd14ee8">follow</a> = new()</td></tr>
+<tr class="memitem:a9864319b1dadad25a389ce168e5d7d02" id="r_a9864319b1dadad25a389ce168e5d7d02"><td class="memItemLeft"><a class="el" href="class_input_service.html">InputService</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9864319b1dadad25a389ce168e5d7d02">input</a></td></tr>
+<tr class="memitem:a2039ad71a397d884342703f19599a792" id="r_a2039ad71a397d884342703f19599a792"><td class="memItemLeft"><a class="el" href="class_player.html">Player</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2039ad71a397d884342703f19599a792">player</a></td></tr>
+<tr class="memitem:af71dc9cb4e4096726d34fd0ef37b9f15" id="r_af71dc9cb4e4096726d34fd0ef37b9f15"><td class="memItemLeft"><a class="el" href="class_ally_unfollow_state.html">AllyUnfollowState</a>&#160;</td><td class="memItemRight"><a class="el" href="#af71dc9cb4e4096726d34fd0ef37b9f15">unfollow</a> = new()</td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentation des fonctions membres</h2>
+<a id="a0c66532d234fc7f8dc8acffe86acac3d" name="a0c66532d234fc7f8dc8acffe86acac3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c66532d234fc7f8dc8acffe86acac3d">&#9670;&#160;</a></span>AgentStopDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AllyFollowMgr.AgentStopDistance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#ae2b1728fe36fdcf2366237bbebea855b">agentStopDistance</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="class_ally_follow_state.html#a5c7b7509205da8c7cc565206f620183a">AllyFollowState.EnterState()</a>.</p>
+
+</div>
+</div>
+<a id="a3304b6c8473ca2baaaee9928d64b8fe2" name="a3304b6c8473ca2baaaee9928d64b8fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3304b6c8473ca2baaaee9928d64b8fe2">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AllyFollowMgr.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#a56b495e50b02cf1a4caae3fe0340c59f">agent</a>, <a class="el" href="#a9864319b1dadad25a389ce168e5d7d02">input</a>, et <a class="el" href="class_service_locator.html#a558e49a192eaf2872d79d1ca488396f0">ServiceLocator.Instance</a>.</p>
+
+</div>
+</div>
+<a id="a58d6be5b018b3100bc8288211b817b33" name="a58d6be5b018b3100bc8288211b817b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d6be5b018b3100bc8288211b817b33">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AllyFollowMgr.Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_i_ally_follow.html">IAllyFollow</a></td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#a5220aea1d05649764b415b6e18a96062">CurrentState</a>, <a class="el" href="interface_i_ally_follow.html#a58e43b8a568d188c5a49b64199453da9">IAllyFollow.EnterState()</a>, et <a class="el" href="#a5d734e9743decb866d8693b7dc38ba66">stateChange</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start()</a>.</p>
+
+</div>
+</div>
+<a id="aa54f9b093d0854b3c0e57f5ea1e12854" name="aa54f9b093d0854b3c0e57f5ea1e12854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54f9b093d0854b3c0e57f5ea1e12854">&#9670;&#160;</a></span>OnChangeAllyState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AllyFollowMgr.OnChangeAllyState </td>
+          <td>(</td>
+          <td class="paramtype">InputAction.CallbackContext</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#a5220aea1d05649764b415b6e18a96062">CurrentState</a>, <a class="el" href="#a375a0777317df92aa20ebef9efd14ee8">follow</a>, <a class="el" href="#a65281eaf77bd53a947acb8b46e8f4cab">TransitionTo()</a>, et <a class="el" href="#af71dc9cb4e4096726d34fd0ef37b9f15">unfollow</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start()</a>.</p>
+
+</div>
+</div>
+<a id="a8c549d073c8062b57730f14891bb3922" name="a8c549d073c8062b57730f14891bb3922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c549d073c8062b57730f14891bb3922">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AllyFollowMgr.Start </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#a5220aea1d05649764b415b6e18a96062">CurrentState</a>, <a class="el" href="#a375a0777317df92aa20ebef9efd14ee8">follow</a>, <a class="el" href="#a58d6be5b018b3100bc8288211b817b33">Initialize()</a>, <a class="el" href="#aa54f9b093d0854b3c0e57f5ea1e12854">OnChangeAllyState()</a>, <a class="el" href="#a2039ad71a397d884342703f19599a792">player</a>, et <a class="el" href="#ae96682228e30404fa9eace01312bc6c3">playerTrans</a>.</p>
+
+</div>
+</div>
+<a id="a65281eaf77bd53a947acb8b46e8f4cab" name="a65281eaf77bd53a947acb8b46e8f4cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65281eaf77bd53a947acb8b46e8f4cab">&#9670;&#160;</a></span>TransitionTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AllyFollowMgr.TransitionTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_i_ally_follow.html">IAllyFollow</a></td>          <td class="paramname"><span class="paramname"><em>nextState</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#a5220aea1d05649764b415b6e18a96062">CurrentState</a>, <a class="el" href="interface_i_ally_follow.html#a58e43b8a568d188c5a49b64199453da9">IAllyFollow.EnterState()</a>, <a class="el" href="interface_i_ally_follow.html#af75ba2a6da0f13165526df9942816c2c">IAllyFollow.ExitState()</a>, et <a class="el" href="#a5d734e9743decb866d8693b7dc38ba66">stateChange</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="#aa54f9b093d0854b3c0e57f5ea1e12854">OnChangeAllyState()</a>.</p>
+
+</div>
+</div>
+<a id="aec06f9d13887eebdd587c1dcaec7d436" name="aec06f9d13887eebdd587c1dcaec7d436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec06f9d13887eebdd587c1dcaec7d436">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AllyFollowMgr.Update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="#a5220aea1d05649764b415b6e18a96062">CurrentState</a>, et <a class="el" href="interface_i_ally_follow.html#a880733104ce19a5b27836a8fa540f819">IAllyFollow.UpdateState()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentation des données membres</h2>
+<a id="a56b495e50b02cf1a4caae3fe0340c59f" name="a56b495e50b02cf1a4caae3fe0340c59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b495e50b02cf1a4caae3fe0340c59f">&#9670;&#160;</a></span>agent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavMeshAgent AllyFollowMgr.agent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a3304b6c8473ca2baaaee9928d64b8fe2">Awake()</a>.</p>
+
+</div>
+</div>
+<a id="ae2b1728fe36fdcf2366237bbebea855b" name="ae2b1728fe36fdcf2366237bbebea855b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2b1728fe36fdcf2366237bbebea855b">&#9670;&#160;</a></span>agentStopDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AllyFollowMgr.agentStopDistance = 10f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a0c66532d234fc7f8dc8acffe86acac3d">AgentStopDistance()</a>.</p>
+
+</div>
+</div>
+<a id="a375a0777317df92aa20ebef9efd14ee8" name="a375a0777317df92aa20ebef9efd14ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375a0777317df92aa20ebef9efd14ee8">&#9670;&#160;</a></span>follow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ally_follow_state.html">AllyFollowState</a> AllyFollowMgr.follow = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#aa54f9b093d0854b3c0e57f5ea1e12854">OnChangeAllyState()</a>, et <a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start()</a>.</p>
+
+</div>
+</div>
+<a id="a9864319b1dadad25a389ce168e5d7d02" name="a9864319b1dadad25a389ce168e5d7d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9864319b1dadad25a389ce168e5d7d02">&#9670;&#160;</a></span>input</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_input_service.html">InputService</a> AllyFollowMgr.input</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a3304b6c8473ca2baaaee9928d64b8fe2">Awake()</a>.</p>
+
+</div>
+</div>
+<a id="a2039ad71a397d884342703f19599a792" name="a2039ad71a397d884342703f19599a792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2039ad71a397d884342703f19599a792">&#9670;&#160;</a></span>player</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_player.html">Player</a> AllyFollowMgr.player</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start()</a>.</p>
+
+</div>
+</div>
+<a id="af71dc9cb4e4096726d34fd0ef37b9f15" name="af71dc9cb4e4096726d34fd0ef37b9f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71dc9cb4e4096726d34fd0ef37b9f15">&#9670;&#160;</a></span>unfollow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ally_unfollow_state.html">AllyUnfollowState</a> AllyFollowMgr.unfollow = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#aa54f9b093d0854b3c0e57f5ea1e12854">OnChangeAllyState()</a>.</p>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Documentation des propriétés</h2>
+<a id="af32a6c4379ae188953d21c4a110b9d9f" name="af32a6c4379ae188953d21c4a110b9d9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af32a6c4379ae188953d21c4a110b9d9f">&#9670;&#160;</a></span>Agent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavMeshAgent AllyFollowMgr.Agent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="class_ally_unfollow_state.html#a30f1e746d913b8a1d105197357ca8427">AllyUnfollowState.EnterState()</a>, et <a class="el" href="class_ally_follow_state.html#ab18167368fbcac8a2c5c08c6063895fb">AllyFollowState.UpdateState()</a>.</p>
+
+</div>
+</div>
+<a id="a5220aea1d05649764b415b6e18a96062" name="a5220aea1d05649764b415b6e18a96062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5220aea1d05649764b415b6e18a96062">&#9670;&#160;</a></span>CurrentState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_i_ally_follow.html">IAllyFollow</a> AllyFollowMgr.CurrentState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel private-set">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a58d6be5b018b3100bc8288211b817b33">Initialize()</a>, <a class="el" href="#aa54f9b093d0854b3c0e57f5ea1e12854">OnChangeAllyState()</a>, <a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start()</a>, <a class="el" href="#a65281eaf77bd53a947acb8b46e8f4cab">TransitionTo()</a>, et <a class="el" href="#aec06f9d13887eebdd587c1dcaec7d436">Update()</a>.</p>
+
+</div>
+</div>
+<a id="af9de989817df81a5792e286f2178c020" name="af9de989817df81a5792e286f2178c020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9de989817df81a5792e286f2178c020">&#9670;&#160;</a></span>Player</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_player.html">Player</a> AllyFollowMgr.Player</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="class_ally_follow_state.html#ab18167368fbcac8a2c5c08c6063895fb">AllyFollowState.UpdateState()</a>.</p>
+
+</div>
+</div>
+<a id="ae96682228e30404fa9eace01312bc6c3" name="ae96682228e30404fa9eace01312bc6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae96682228e30404fa9eace01312bc6c3">&#9670;&#160;</a></span>playerTrans</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 AllyFollowMgr.playerTrans</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a8c549d073c8062b57730f14891bb3922">Start()</a>, et <a class="el" href="class_ally_follow_state.html#ab18167368fbcac8a2c5c08c6063895fb">AllyFollowState.UpdateState()</a>.</p>
+
+</div>
+</div>
+<a name="doc-event-members" id="doc-event-members"></a><h2 id="header-doc-event-members" class="groupheader">Documentation des événements</h2>
+<a id="a5d734e9743decb866d8693b7dc38ba66" name="a5d734e9743decb866d8693b7dc38ba66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d734e9743decb866d8693b7dc38ba66">&#9670;&#160;</a></span>stateChange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="interface_i_ally_follow.html">IAllyFollow</a>&gt; AllyFollowMgr.stateChange</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="#a58d6be5b018b3100bc8288211b817b33">Initialize()</a>, et <a class="el" href="#a65281eaf77bd53a947acb8b46e8f4cab">TransitionTo()</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li>Scripts/DesignPattern/StatePattern/AllyFollowingState/<a class="el" href="_ally_follow_mgr_8cs.html">AllyFollowMgr.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- HTML footer for doxygen 1.18.0-->
+<!-- start footer part -->
+<footer class="roga-footer">
+  <div class="roga-footer-copy">
+    <a class="roga-credit-link" href="https://www.youtube.com/@roga_dev" target="_blank" rel="noopener noreferrer"><strong>RoGa Dev</strong></a>
+    <span>Retrouve-moi sur les réseaux !</span>
+  </div>
+  <nav class="roga-social-links" aria-label="Suivre RoGa Dev">
+    <a href="https://www.twitch.tv/roga_dev" target="_blank" rel="noopener noreferrer">Twitch <span>@roga_dev</span></a>
+    <a href="https://www.tiktok.com/@roga_dev" target="_blank" rel="noopener noreferrer">TikTok <span>@roga_dev</span></a>
+    <a href="https://www.youtube.com/@roga_dev" target="_blank" rel="noopener noreferrer">YouTube <span>@roga_dev</span></a>
+  </nav>
+</footer>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_ally_follow_mgr.html">AllyFollowMgr</a></li>
+  </ul>
+</div>
+</body>
+</html>
